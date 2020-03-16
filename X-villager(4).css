@@ -1,0 +1,324 @@
+/*2~12페이지 적용 가능*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,700);
+@import url(https://fonts.googleapis.com/css?family=Do+Hyeon|Gothic+A1|Nanum+Gothic|Noto+Serif+KR|Roboto+Mono&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Nanum+Brush+Script|Nanum+Pen+Script|Noto+Serif+KR&display=swap);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip1384 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  /*left: 250px;*/
+  overflow: hidden;
+  margin: 10px;
+  min-width: 230px;
+  max-width: 315px;
+  /*width: 100%;*/
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  background-color: #000000;
+  float: left; /*가로 정렬*/
+}
+figure.snip1384 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1384 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+figure.snip1384:after,
+figure.snip1384 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+figure.snip1384:after {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.65);
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+figure.snip1384 figcaption {
+  z-index: 1;
+  padding: 38px; /*40이었음*/
+}
+figure.snip1384 h3,
+figure.snip1384 .links {
+  width: 100%;
+  margin: 5px 0;
+  padding: 0;
+}
+figure.snip1384 h3 {
+  line-height: 1.1em;
+  font-weight: 700;
+  font-size: 1.4em;
+  /*text-transform: uppercase;*/
+  opacity: 0;
+}
+figure.snip1384 p {
+  font-size: 0.8em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  opacity: 0;
+  top: 50%;
+  -webkit-transform: translateY(40px);
+  transform: translateY(40px);
+}
+figure.snip1384 i {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 20px 25px;
+  font-size: 34px;
+  opacity: 0;
+  -webkit-transform: translateX(-10px);
+  transform: translateX(-10px);
+}
+figure.snip1384 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+figure.snip1384:hover img,
+figure.snip1384.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+figure.snip1384:hover:after,
+figure.snip1384.hover:after {
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+figure.snip1384:hover h3,
+figure.snip1384.hover h3,
+figure.snip1384:hover p,
+figure.snip1384.hover p,
+figure.snip1384:hover i,
+figure.snip1384.hover i {
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+figure.snip1385 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  /*left: 250px;*/
+  overflow: hidden;
+  margin: 10px;
+  min-width: 715px;
+  max-width: 715px;
+  height: 340px;
+  /*width: 100%;*/
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  background-color: #000000;
+  float: left; /*가로 정렬*/
+}
+figure.snip1385 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.snip1385 img {
+  max-width: 100%;
+  backface-visibility: hidden;
+  vertical-align: top;
+}
+figure.snip1385:after,
+figure.snip1385 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+figure.snip1385:after {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.65);
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+}
+figure.snip1385 figcaption {
+  z-index: 1;
+  padding: 38px; /*40이었음*/
+}
+figure.snip1385 h3,
+figure.snip1385 .links {
+  width: 100%;
+  margin: 5px 0;
+  padding: 0;
+}
+figure.snip1385 h3 {
+  line-height: 1.1em;
+  font-weight: 700;
+  font-size: 1.4em;
+  /*text-transform: uppercase;*/
+  opacity: 0;
+}
+figure.snip1385 p {
+  font-size: 0.8em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  opacity: 0;
+  top: 50%;
+  -webkit-transform: translateY(40px);
+  transform: translateY(40px);
+}
+figure.snip1385 i {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 20px 25px;
+  font-size: 34px;
+  opacity: 0;
+  -webkit-transform: translateX(-10px);
+  transform: translateX(-10px);
+}
+figure.snip1385 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+figure.snip1385:hover img,
+figure.snip1385.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+figure.snip1385:hover:after,
+figure.snip1385.hover:after {
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+}
+figure.snip1385:hover h3,
+figure.snip1385.hover h3,
+figure.snip1385:hover p,
+figure.snip1385.hover p,
+figure.snip1385:hover i,
+figure.snip1385.hover i {
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  opacity: 1;
+}
+.gradient {
+  display: table;
+  /*margin: 50px auto 0;*/
+  margin-top: 130px;
+  padding: 10px 25px;
+  background: #fff;
+  font-weight: 700;
+  text-align: center;
+  background: linear-gradient(to right, rgb(134,202,224), rgb(148,110,170), rgb(242,112,116));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ul#main-navigation {
+    list-style:none;
+    width: 515px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 765px;
+    padding:0;
+}
+
+ul#main-navigation li {
+    font-family: 'Roboto Mono';
+    padding-left: 10px;
+    padding-right: 10px;
+    border : 0;
+    float: left;
+}
+
+ul#sub-navigation {
+    list-style:none;
+    margin-top: 50px;
+    padding:0;
+}
+
+ul#sub-navigation li {
+    font-family: 'Roboto Mono';
+    padding-left: 10px;
+    padding-right: 10px;
+    border : 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+  width: 1890px;
+  overflow: hidden;
+  display: table;
+}
+
+.sub-nav {
+  margin-top: 50px;
+  float: left;
+  margin-left: 50px;
+  margin-right: 190px;
+  height: 800px;
+  display: table-column;
+}
+
+.content {
+  float: left;
+  height: 900px;
+  display: table-column;
+  /*overflow-x: scroll;
+  overflow-y: hidden; 스크롤 생기게~~*/
+}
+
+.logo_name {
+  font-size: 30px;
+  font-family: 'Raleway';
+  margin-left: 970px;
+  white-space: nowrap;
+
+}
+
+.frame {
+  width: 100%;
+  /*overflow-x: hidden;*/
+  margin: 0;
+  padding: 0;
+  /*margin: 0 auto;*/
+}
+
+.footer1 {
+  margin-left:500px;
+  white-space: nowrap;
+
+}
+.footer {
+  margin-left:730px;
+  white-space: nowrap;
+
+}
