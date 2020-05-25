@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link type="text/css" rel="stylesheet" href="X-TREND.css"></link>
+    <script src="./X-Villager(4).js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(function() {
+       $('.subtitle').attr('class','subtitle sub_on');
+       $('.sub').css('display','none');
+       $(".subtitle").click(function() {
+           var display=$(this).next('.sub').css('display');
+           $('.subtitle').attr('class','subtitle sub_on');
+           $('.sub').css('display','none');
+           if (display == "none") {
+               $(this).attr('class','subtitle');
+               $(this).next('.sub').css('display', 'block');
+           } else {
+               $(this).attr('class','subtitle sub_on');
+               $(this).next('.sub').css('display', 'none');
+           }
+       });
+     });
+    </script>
+
+</head>
+<body>
+  <div class="frame">
+    <div class="header">
+      <<div class="logo_name">
+        <h2>X-Ville</h2>
+      </div>
+      <div class="main-nav">
+        <ul id="main-navigation">
+          <li id="XVille">
+            <a title="X-VILLE" href="#">X-VILLE</a>
+          </li>
+          <li id="XVillagers">
+            <a title="X-VILLAGERS" href="../X-VILLAGERS/X-Villager(1).html">X-VILLAGERS</a>
+          </li>
+          <li id="XProject">
+            <a title="X-PROJECT" href="#">X-PROJECT</a>
+          </li>
+          <li id="XTrend">
+            <a title="X-TREND" href="X-TREND_main.html">X-TREND</a>
+          </li>
+          <li id="XGallery">
+            <a title="X-GALLERY" href="#">X-GALLERY</a>
+          </li>
+        </ul>
+      </div>
+      <hr style="border-top-width:2px; margin-top:65px; width:1100px; margin-left: 480px;">
+    </div>
+
+    <div class="container">
+      <!--메뉴네비게이션-->
+      <div class="lnb" style="margin-top:120px; margin-right: 270px;">
+        <div class="subtitle" ><a href="#">2020</a></div>
+          <ul class="sub" style="display:none;">
+            <li><a href="X-TREND_main.html">Insight Diffusion</a></li>
+            <li><a href="ColumnCategory.html">UX Column</a></li>
+          </ul>
+        <div class="subtitle"><a href="#">2019</a></div>
+          <ul class="sub" style="display:none;">
+            <li><a href="#">Insight Diffusion</a></li>
+            <li><a href="#">UX Column</a></li>
+          </ul>
+        <div class="subtitle"><a href="#">2018</a></div>
+          <ul class="sub" style="display:none;">
+            <li><a href="#">Insight Diffusion</a></li>
+            <li><a href="#">UX Column</a></li>
+          </ul>
+          <div class="subtitle"><a href="#">2017</a></div>
+            <ul class="sub" style="display:none;">
+              <li><a href="#">Insight Diffusion</a></li>
+              <li><a href="#">UX Column</a></li>
+            </ul>
+      </div>
+
+      <div class="content" style="height:850px;">
+        <div class="title" style="margin-left: 0px; margin-top: 80px; margin-bottom:-90px; margin-left: 5px;">
+          <h3>2020 UX Column</h3>
+          <hr align="left" class="one" style="border: solid 1.5px; width: 152px; margin-top: -15px;">
+        </div>
+        <!--<h3 style="margin-top : 50px; margin-left: 0px;" >UX Column</h3>-->
+        <div class="calums" style="margin-top : 100px; margin-left: 0px;">
+          <div id="book" style="margin-right:40px; margin-left: 13px;" href="#">
+              <h1 style="text-align:center;" >BOOK</h1>
+              <a href="Column_Book.html">
+                <img src = "../img/column_img/column_ex1.jpg" style="margin-top: 20;">
+              </a>
+              <p>모든 기획자와 디자이너가 알아야 할 사람에 대한 또 다른 100가지 사실</p>
+          </div>
+          <div id="trend" style="margin-right: 40px;" href="#">
+              <h1 style="text-align:center;">TREND</h1>
+              <a href="Column_Trend.html">
+                <img src = "../img/column_img/column_ex2.png" align="center" width=300px height=400px>
+              </a>
+              <p>웹, 모바일 그리고 미래자동차 디스플레이</p>
+          </div>
+          <div id="app" href="#">
+              <h1 style="text-align:center;">APP</h1>
+              <a href="Column_App.html">
+                <img src = "../img/column_img/column_ex2.png" align="center" width=300px height=400px >
+              </a>
+              <p></p>
+              <p></p>
+              <p>카카오T에 담긴 '통합'의 방식과 그 의미</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

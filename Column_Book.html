@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link type="text/css" rel="stylesheet" href="X-TREND.css"></link>
+    <script src="./X-Villager(4).js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(function() {
+       $('.subtitle').attr('class','subtitle sub_on');
+       $('.sub').css('display','none');
+       $(".subtitle").click(function() {
+           var display=$(this).next('.sub').css('display');
+           $('.subtitle').attr('class','subtitle sub_on');
+           $('.sub').css('display','none');
+           if (display == "none") {
+               $(this).attr('class','subtitle');
+               $(this).next('.sub').css('display', 'block');
+           } else {
+               $(this).attr('class','subtitle sub_on');
+               $(this).next('.sub').css('display', 'none');
+           }
+       });
+     });
+    </script>
+
+</head>
+<body>
+  <div class="frame">
+    <div class="header">
+      <<div class="logo_name">
+        <h2>X-Ville</h2>
+      </div>
+      <div class="main-nav">
+        <ul id="main-navigation">
+          <li id="XVille">
+            <a title="X-VILLE" href="#">X-VILLE</a>
+          </li>
+          <li id="XVillagers">
+            <a title="X-VILLAGERS" href="../X-VILLAGERS/X-Villager(1).html">X-VILLAGERS</a>
+          </li>
+          <li id="XProject">
+            <a title="X-PROJECT" href="#">X-PROJECT</a>
+          </li>
+          <li id="XTrend">
+            <a title="X-TREND" href="X-TREND_main.html">X-TREND</a>
+          </li>
+          <li id="XGallery">
+            <a title="X-GALLERY" href="#">X-GALLERY</a>
+          </li>
+        </ul>
+      </div>
+      <hr style="border-top-width:2px; margin-top:65px; width:1100px; margin-left: 480px;">
+    </div>
+
+    <div class="container">
+      	<!--메뉴네비게이션-->
+        <div class="lnb" style="margin-top:120px; margin-right: 270px;">
+          <div class="subtitle" ><a href="#">2020</a></div>
+            <ul class="sub" style="display:none;">
+              <li><a href="X-TREND_main.html">Insight Diffusion</a></li>
+              <li><a href="ColumnCategory.html">UX Column</a></li>
+            </ul>
+          <div class="subtitle"><a href="#">2019</a></div>
+            <ul class="sub" style="display:none;">
+              <li><a href="#">Insight Diffusion</a></li>
+              <li><a href="#">UX Column</a></li>
+            </ul>
+          <div class="subtitle"><a href="#">2018</a></div>
+            <ul class="sub" style="display:none;">
+              <li><a href="#">Insight Diffusion</a></li>
+              <li><a href="#">UX Column</a></li>
+            </ul>
+            <div class="subtitle"><a href="#">2017</a></div>
+              <ul class="sub" style="display:none;">
+                <li><a href="#">Insight Diffusion</a></li>
+                <li><a href="#">UX Column</a></li>
+              </ul>
+        </div>
+
+
+      <div class="content">
+        <div class="title" style="margin-left: 0px; margin-top: 80px; margin-bottom:-90px; margin-left: 5px;">
+          <h3>2020 UX Column : Book</h3>
+          <hr align="left" class="one" style="border: solid 1.5px; width: 215px; margin-top: -15px;">
+        </div>
+
+        <section style="display: table; margin-left: auto; margin-right: auto; margin-top: 100px;">
+          <figure class="snip1384" style="margin-left: 35px;">
+            <img src="../img/column_img/column_1.jpg" alt="example1" width="330px"/>
+            <figcaption>
+              <h3 style="font-family: 'Gothic A1';"><br>2020.00.00<br>abcdefg<br>Designed by.000</h3>
+            </figcaption>
+          </figure>
+
+          <figure class="snip1384" style="top: 100px;">
+            <img src="../img/column_img/column_2.jpg" alt="example2" width="330px"/>
+            <figcaption>
+              <h3 style="font-family: 'Gothic A1';"><br>2020.04.11<br>ZIG BEE<br>Designed by.이예현</h3>
+            </figcaption>
+          </figure>
+
+          <figure class="snip1384">
+            <img src="../img/column_img/column_3.jpg" alt="example3" width="330px"/>
+            <figcaption>
+              <h3 style="font-family: 'Gothic A1';"><br>2020.00.00<br>abcdefg<br>Designed by.000</h3>
+            </figcaption>
+          </figure>
+        </section>
+
+        <section style="display: table; margin-left: auto; margin-right: auto; margin-top: 10px;">
+          <figure class="snip1384" style="margin-left: 35px;">
+            <img src="../img/column_img/column_4.jpg" alt="example4" width="330px"/>
+            <figcaption>
+              <h3 style="font-family: 'Gothic A1';"><br>2020.00.00<br>abcdefg<br>Designed by.000</h3>
+            </figcaption>
+          </figure>
+
+          <figure class="snip1384" style="top: 100px;">
+            <img src="../img/column_img/column_5.jpg" alt="example5" width="330px"/>
+            <figcaption>
+              <h3 style="font-family: 'Gothic A1';"><br>2020.00.00<br>abcdefg<br>Designed by.000</h3>
+            </figcaption>
+          </figure>
+
+          <figure class="snip1384" style="top: 0px;">
+            <img src="../img/column_img/column_6.jpg" alt="example6" width="330px"/>
+            <figcaption>
+              <h3 style="font-family: 'Gothic A1';"><br>2020.00.00<br>abcdefg<br>Designed by.000</h3>
+            </figcaption>
+          </figure>
+        </section>
+
+        <section style="display: table; margin-left: auto; margin-right: auto; margin-top: 10px;">
+          <figure class="snip1384" style="margin-left: 35px;">
+            <img src="../img/column_img/column_7.jpg" alt="example7" width="330px"/>
+            <figcaption>
+              <h3 style="font-family: 'Gothic A1';"><br>2020.00.00<br>abcdefg<br>Designed by.000</h3>
+            </figcaption>
+          </figure>
+
+          <figure class="snip1384" style="top: 100px;">
+            <img src="../img/column_img/column_8.jpg" alt="example8" width="330px"/>
+            <figcaption>
+              <h3 style="font-family: 'Gothic A1';"><br>2020.00.00<br>abcdefg<br>Designed by.000</h3>
+            </figcaption>
+          </figure>
+
+          <figure class="snip1384" style="top: 0px;">
+            <img src="../img/column_img/column_1.jpg" alt="example9" width="330px"/>
+            <figcaption>
+              <h3 style="font-family: 'Gothic A1';"><br>2020.00.00<br>abcdefg<br>Designed by.000</h3>
+            </figcaption>
+          </figure>
+        </section>
+
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
